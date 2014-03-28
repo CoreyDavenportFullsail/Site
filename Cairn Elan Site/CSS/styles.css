@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+pre{
+	display:inline;
+}
+
+@font-face {
+    font-family: 'liviamedium';
+    src: url('livia_medium-webfont.eot');
+    src: url('livia_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('livia_medium-webfont.woff') format('woff'),
+         url('livia_medium-webfont.ttf') format('truetype'),
+         url('livia_medium-webfont.svg#liviamedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header, section, footer, aside, nav, article,{
+    display: block;
+}
+
+body{
+    height:100%;
+    width:100%;
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    background-repeat: no-repeat;
+    background-image: url("../images/cairnelanwebsitebackground.jpg");
+    background-position: auto;
+    background-size: 100%;
+}
+
+nav{
+	position: absolute;
+	top: 120px;
+	left: 565px;
+}
+
+#menu li{
+	font-family: Liviamedium, Arial, Helvetica, serif;
+	text-align:center;
+	display: inline-block;
+	padding: 5px;
+	list-style-type: none;
+	color: #858585;
+	font-size: 20px;
+}
+
+a:hover{
+	color: white;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	color: #858585;
+}
+a:active{
+	color:white;
+}
+
+#top_header{
+	font-family: Liviamedium, Arial, Helvetica, serif;
+	text-align: center;
+	border-bottom: 1.5px solid #858585;
+	color: #858585;
+	position: absolute;
+	top: 75px;
+	left: 610px;
+}
+
+h1{
+	font-size: 35px;
+	font-weight: 200;
+}
+
+#main_video{
+	position: absolute;
+	top:160px;
+	left:400px;
+}
