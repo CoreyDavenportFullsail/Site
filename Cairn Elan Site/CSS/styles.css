@@ -24,7 +24,7 @@ header, section, footer, aside, nav, article,{
 }
 
 iframe{
-	frame-border: 0;
+	border: 0;
 }
 
 body{
