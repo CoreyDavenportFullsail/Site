@@ -23,6 +23,10 @@ header, section, footer, aside, nav, article,{
     display: block;
 }
 
+iframe{
+	frame-border: 0;
+}
+
 body{
     height:100%;
     width:100%;
